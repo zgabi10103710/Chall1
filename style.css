@@ -1,0 +1,132 @@
+/* Reset des styles par défaut */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Styles généraux */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    color: #333;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Styles du header */
+header {
+    background-color: #333;
+    padding: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    text-align: center;
+}
+
+nav ul li {
+    display: inline-block;
+}
+
+nav ul li a {
+    display: block;
+    padding: 10px;
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Styles de la bannière */
+#banner {
+    background-image: url('images/caractere.jpg');
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    padding: 100px 0;
+    color: #fff;
+}
+
+#banner h1 {
+    font-size: 40px;
+    margin-bottom: 20px;
+}
+
+#banner p {
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #f00;
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+/* Styles des personnages */
+#characters {
+    padding: 50px 0;
+}
+
+.character {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.character img {
+    width: 200px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.character h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.character p {
+    font-size: 16px;
+}
+
+/* Styles des épisodes */
+#episodes {
+    padding: 50px 0;
+}
+
+#episodes ul {
+    list-style-type: none;
+}
+
+#episodes ul li {
+    margin-bottom: 10px;
+}
+
+/* Styles de la galerie d'images */
+#gallery {
+    padding: 50px 0;
+    text-align: center;
+}
+
+.image {
+    display: inline-block;
+    margin: 10px;
+}
+
+.image img {
+    width: 300px;
+    border-radius: 5px;
+}
+
+/* Styles du footer */
+footer {
+    background-color: #333;
+    padding: 10px;
+    color: #fff;
+    text-align: center;
+}
